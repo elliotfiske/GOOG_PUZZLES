@@ -1,3 +1,4 @@
 import os
 
-print "test"
+with open("test.in", "r") as f:
+    print f.readlines()
